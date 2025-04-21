@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		2FA98E2A2DB6AA47006C9FFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FA98E0B2DB6AA44006C9FFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FA98E122DB6AA44006C9FFC;
+			remoteInfo = "AnimatedLoginSignUP-UIKIT";
+		};
+		2FA98E342DB6AA47006C9FFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FA98E0B2DB6AA44006C9FFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FA98E122DB6AA44006C9FFC;
+			remoteInfo = "AnimatedLoginSignUP-UIKIT";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2FA98E132DB6AA44006C9FFC /* AnimatedLoginSignUP-UIKIT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AnimatedLoginSignUP-UIKIT.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FA98E292DB6AA47006C9FFC /* AnimatedLoginSignUP-UIKITTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AnimatedLoginSignUP-UIKITTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FA98E332DB6AA47006C9FFC /* AnimatedLoginSignUP-UIKITUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AnimatedLoginSignUP-UIKITUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		2FA98E3B2DB6AA47006C9FFC /* Exceptions for "AnimatedLoginSignUP-UIKIT" folder in "AnimatedLoginSignUP-UIKIT" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 2FA98E122DB6AA44006C9FFC /* AnimatedLoginSignUP-UIKIT */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		2FA98E152DB6AA44006C9FFC /* AnimatedLoginSignUP-UIKIT */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				2FA98E3B2DB6AA47006C9FFC /* Exceptions for "AnimatedLoginSignUP-UIKIT" folder in "AnimatedLoginSignUP-UIKIT" target */,
+			);
+			path = "AnimatedLoginSignUP-UIKIT";
+			sourceTree = "<group>";
+		};
+		2FA98E2C2DB6AA47006C9FFC /* AnimatedLoginSignUP-UIKITTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "AnimatedLoginSignUP-UIKITTests";
+			sourceTree = "<group>";
+		};
+		2FA98E362DB6AA47006C9FFC /* AnimatedLoginSignUP-UIKITUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "AnimatedLoginSignUP-UIKITUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FA98E102DB6AA44006C9FFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FA98E262DB6AA47006C9FFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FA98E302DB6AA47006C9FFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FA98E0A2DB6AA44006C9FFC = {
+			isa = PBXGroup;
+			children = (
+				2FA98E152DB6AA44006C9FFC /* AnimatedLoginSignUP-UIKIT */,
+				2FA98E2C2DB6AA47006C9FFC /* AnimatedLoginSignUP-UIKITTests */,
+				2FA98E362DB6AA47006C9FFC /* AnimatedLoginSignUP-UIKITUITests */,
+				2FA98E142DB6AA44006C9FFC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2FA98E142DB6AA44006C9FFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FA98E132DB6AA44006C9FFC /* AnimatedLoginSignUP-UIKIT.app */,
+				2FA98E292DB6AA47006C9FFC /* AnimatedLoginSignUP-UIKITTests.xctest */,
+				2FA98E332DB6AA47006C9FFC /* AnimatedLoginSignUP-UIKITUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FA98E122DB6AA44006C9FFC /* AnimatedLoginSignUP-UIKIT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FA98E3C2DB6AA47006C9FFC /* Build configuration list for PBXNativeTarget "AnimatedLoginSignUP-UIKIT" */;
+			buildPhases = (
+				2FA98E0F2DB6AA44006C9FFC /* Sources */,
+				2FA98E102DB6AA44006C9FFC /* Frameworks */,
+				2FA98E112DB6AA44006C9FFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				2FA98E152DB6AA44006C9FFC /* AnimatedLoginSignUP-UIKIT */,
+			);
+			name = "AnimatedLoginSignUP-UIKIT";
+			packageProductDependencies = (
+			);
+			productName = "AnimatedLoginSignUP-UIKIT";
+			productReference = 2FA98E132DB6AA44006C9FFC /* AnimatedLoginSignUP-UIKIT.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2FA98E282DB6AA47006C9FFC /* AnimatedLoginSignUP-UIKITTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FA98E412DB6AA47006C9FFC /* Build configuration list for PBXNativeTarget "AnimatedLoginSignUP-UIKITTests" */;
+			buildPhases = (
+				2FA98E252DB6AA47006C9FFC /* Sources */,
+				2FA98E262DB6AA47006C9FFC /* Frameworks */,
+				2FA98E272DB6AA47006C9FFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FA98E2B2DB6AA47006C9FFC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				2FA98E2C2DB6AA47006C9FFC /* AnimatedLoginSignUP-UIKITTests */,
+			);
+			name = "AnimatedLoginSignUP-UIKITTests";
+			packageProductDependencies = (
+			);
+			productName = "AnimatedLoginSignUP-UIKITTests";
+			productReference = 2FA98E292DB6AA47006C9FFC /* AnimatedLoginSignUP-UIKITTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2FA98E322DB6AA47006C9FFC /* AnimatedLoginSignUP-UIKITUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FA98E442DB6AA47006C9FFC /* Build configuration list for PBXNativeTarget "AnimatedLoginSignUP-UIKITUITests" */;
+			buildPhases = (
+				2FA98E2F2DB6AA47006C9FFC /* Sources */,
+				2FA98E302DB6AA47006C9FFC /* Frameworks */,
+				2FA98E312DB6AA47006C9FFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FA98E352DB6AA47006C9FFC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				2FA98E362DB6AA47006C9FFC /* AnimatedLoginSignUP-UIKITUITests */,
+			);
+			name = "AnimatedLoginSignUP-UIKITUITests";
+			packageProductDependencies = (
+			);
+			productName = "AnimatedLoginSignUP-UIKITUITests";
+			productReference = 2FA98E332DB6AA47006C9FFC /* AnimatedLoginSignUP-UIKITUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FA98E0B2DB6AA44006C9FFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					2FA98E122DB6AA44006C9FFC = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					2FA98E282DB6AA47006C9FFC = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 2FA98E122DB6AA44006C9FFC;
+					};
+					2FA98E322DB6AA47006C9FFC = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 2FA98E122DB6AA44006C9FFC;
+					};
+				};
+			};
+			buildConfigurationList = 2FA98E0E2DB6AA44006C9FFC /* Build configuration list for PBXProject "AnimatedLoginSignUP-UIKIT" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2FA98E0A2DB6AA44006C9FFC;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 2FA98E142DB6AA44006C9FFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FA98E122DB6AA44006C9FFC /* AnimatedLoginSignUP-UIKIT */,
+				2FA98E282DB6AA47006C9FFC /* AnimatedLoginSignUP-UIKITTests */,
+				2FA98E322DB6AA47006C9FFC /* AnimatedLoginSignUP-UIKITUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FA98E112DB6AA44006C9FFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FA98E272DB6AA47006C9FFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FA98E312DB6AA47006C9FFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FA98E0F2DB6AA44006C9FFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FA98E252DB6AA47006C9FFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FA98E2F2DB6AA47006C9FFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2FA98E2B2DB6AA47006C9FFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FA98E122DB6AA44006C9FFC /* AnimatedLoginSignUP-UIKIT */;
+			targetProxy = 2FA98E2A2DB6AA47006C9FFC /* PBXContainerItemProxy */;
+		};
+		2FA98E352DB6AA47006C9FFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FA98E122DB6AA44006C9FFC /* AnimatedLoginSignUP-UIKIT */;
+			targetProxy = 2FA98E342DB6AA47006C9FFC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2FA98E3D2DB6AA47006C9FFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AnimatedLoginSignUP-UIKIT/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nimishmothghare.AnimatedLoginSignUP-UIKIT";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2FA98E3E2DB6AA47006C9FFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AnimatedLoginSignUP-UIKIT/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nimishmothghare.AnimatedLoginSignUP-UIKIT";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2FA98E3F2DB6AA47006C9FFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2FA98E402DB6AA47006C9FFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2FA98E422DB6AA47006C9FFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nimishmothghare.AnimatedLoginSignUP-UIKITTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimatedLoginSignUP-UIKIT.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AnimatedLoginSignUP-UIKIT";
+			};
+			name = Debug;
+		};
+		2FA98E432DB6AA47006C9FFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nimishmothghare.AnimatedLoginSignUP-UIKITTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimatedLoginSignUP-UIKIT.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AnimatedLoginSignUP-UIKIT";
+			};
+			name = Release;
+		};
+		2FA98E452DB6AA47006C9FFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nimishmothghare.AnimatedLoginSignUP-UIKITUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AnimatedLoginSignUP-UIKIT";
+			};
+			name = Debug;
+		};
+		2FA98E462DB6AA47006C9FFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nimishmothghare.AnimatedLoginSignUP-UIKITUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AnimatedLoginSignUP-UIKIT";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FA98E0E2DB6AA44006C9FFC /* Build configuration list for PBXProject "AnimatedLoginSignUP-UIKIT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FA98E3F2DB6AA47006C9FFC /* Debug */,
+				2FA98E402DB6AA47006C9FFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FA98E3C2DB6AA47006C9FFC /* Build configuration list for PBXNativeTarget "AnimatedLoginSignUP-UIKIT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FA98E3D2DB6AA47006C9FFC /* Debug */,
+				2FA98E3E2DB6AA47006C9FFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FA98E412DB6AA47006C9FFC /* Build configuration list for PBXNativeTarget "AnimatedLoginSignUP-UIKITTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FA98E422DB6AA47006C9FFC /* Debug */,
+				2FA98E432DB6AA47006C9FFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FA98E442DB6AA47006C9FFC /* Build configuration list for PBXNativeTarget "AnimatedLoginSignUP-UIKITUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FA98E452DB6AA47006C9FFC /* Debug */,
+				2FA98E462DB6AA47006C9FFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2FA98E0B2DB6AA44006C9FFC /* Project object */;
+}
