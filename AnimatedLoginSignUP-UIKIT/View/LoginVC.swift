@@ -6,24 +6,21 @@
 //
 
 import UIKit
+import IBAnimatable
 
 class LoginVC: UIViewController {
-
+    
+    //MARK: -IBOutlet
+    @IBOutlet weak var loginView: AnimatableView!
+    @IBOutlet weak var emailtxtField: AnimatableTextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        loginView.animate(.compound(animations: .init(arrayLiteral: .slideFade(way: .in, direction: .down)), run: .parallel))
+        emailtxtField.animate(.compound(animations: .init(arrayLiteral: .slide(way: .in, direction: .down)), run: .parallel))
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+   
 }

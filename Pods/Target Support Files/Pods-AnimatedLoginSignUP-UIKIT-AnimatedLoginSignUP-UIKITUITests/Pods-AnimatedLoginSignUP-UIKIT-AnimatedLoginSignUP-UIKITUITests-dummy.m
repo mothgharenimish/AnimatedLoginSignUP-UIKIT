@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_AnimatedLoginSignUP_UIKIT_AnimatedLoginSignUP_UIKITUITests : NSObject
+@end
+@implementation PodsDummy_Pods_AnimatedLoginSignUP_UIKIT_AnimatedLoginSignUP_UIKITUITests
+@end
