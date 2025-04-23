@@ -1,2 +1,4 @@
 ${PODS_ROOT}/Target Support Files/Pods-AnimatedLoginSignUP-UIKIT-AnimatedLoginSignUP-UIKITUITests/Pods-AnimatedLoginSignUP-UIKIT-AnimatedLoginSignUP-UIKITUITests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/CDAlertView/CDAlertView.framework
 ${BUILT_PRODUCTS_DIR}/IBAnimatable/IBAnimatable.framework

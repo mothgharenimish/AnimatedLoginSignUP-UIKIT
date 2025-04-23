@@ -7,6 +7,8 @@ target 'AnimatedLoginSignUP-UIKIT' do
 
   # Pods for AnimatedLoginSignUP-UIKIT
     pod 'IBAnimatable'
+    pod 'Alamofire'
+    pod "CDAlertView"
 
 
   target 'AnimatedLoginSignUP-UIKITTests' do

@@ -1,16 +1,24 @@
 PODS:
+  - Alamofire (5.10.2)
+  - CDAlertView (0.11.0)
   - IBAnimatable (6.1.0)
 
 DEPENDENCIES:
+  - Alamofire
+  - CDAlertView
   - IBAnimatable
 
 SPEC REPOS:
   trunk:
+    - Alamofire
+    - CDAlertView
     - IBAnimatable
 
 SPEC CHECKSUMS:
+  Alamofire: 7193b3b92c74a07f85569e1a6c4f4237291e7496
+  CDAlertView: cd6624e857c85ad14560e2cd23d7eb25b983b590
   IBAnimatable: 99dddd4c0625884a301ba3ecbc1615f8a390368e
 
-PODFILE CHECKSUM: 83ded3ac8e2d9282e28c1525c9df8daabc62c913
+PODFILE CHECKSUM: 7b5c003d542160c7c90d2d153896f00c725c694b
 
 COCOAPODS: 1.16.2
