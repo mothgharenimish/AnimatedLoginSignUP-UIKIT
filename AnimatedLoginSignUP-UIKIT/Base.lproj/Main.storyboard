@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="iVe-ml-aq6">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="hBs-Z6-wTa">
     <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
@@ -247,10 +247,10 @@
             </objects>
             <point key="canvasLocation" x="1100" y="16.901408450704228"/>
         </scene>
-        <!--View Controller-->
+        <!--Sign UpVC-->
         <scene sceneID="EV1-uj-83e">
             <objects>
-                <viewController id="iVe-ml-aq6" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SignUpVC" id="iVe-ml-aq6" customClass="SignUpVC" customModule="AnimatedLoginSignUP_UIKIT" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ijH-ot-IKl">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -267,7 +267,7 @@
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="  Email Address" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="taI-f4-SGh" customClass="AnimatableTextField" customModule="IBAnimatable">
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="taI-f4-SGh" customClass="AnimatableTextField" customModule="IBAnimatable">
                                         <rect key="frame" x="22" y="81" width="306" height="55"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.49147002550000002" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
@@ -291,7 +291,7 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                     </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="  Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lQ6-q8-qpK" customClass="AnimatableTextField" customModule="IBAnimatable">
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email Address" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lQ6-q8-qpK" customClass="AnimatableTextField" customModule="IBAnimatable">
                                         <rect key="frame" x="22" y="156" width="306" height="55"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.49147002550000002" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
@@ -322,7 +322,7 @@
                                             <constraint firstAttribute="height" constant="55" id="FRo-D3-PFL"/>
                                         </constraints>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="SignIn">
+                                        <buttonConfiguration key="configuration" style="plain" title="Sign Up">
                                             <fontDescription key="titleFontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="19"/>
                                             <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </buttonConfiguration>
@@ -334,6 +334,7 @@
                                         <connections>
                                             <action selector="nextscreenAction:" destination="bUe-xy-Gyg" eventType="touchUpInside" id="Byl-ba-gZF"/>
                                             <action selector="signInaction:" destination="QL1-hS-esD" eventType="touchUpInside" id="UMn-J0-dMD"/>
+                                            <action selector="signupAction:" destination="iVe-ml-aq6" eventType="touchUpInside" id="7ul-Gh-Dqv"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Already have an account?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K2m-b0-C9L" customClass="AnimatableLabel" customModule="IBAnimatable">
@@ -349,7 +350,7 @@
                                             <constraint firstAttribute="height" constant="55" id="TZC-gT-c1v"/>
                                         </constraints>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="Sign Up">
+                                        <buttonConfiguration key="configuration" style="plain" title="Sign In">
                                             <fontDescription key="titleFontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="19"/>
                                             <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </buttonConfiguration>
@@ -361,6 +362,7 @@
                                         <connections>
                                             <action selector="nextscreenAction:" destination="bUe-xy-Gyg" eventType="touchUpInside" id="7vV-Cq-v0X"/>
                                             <action selector="signInaction:" destination="QL1-hS-esD" eventType="touchUpInside" id="7Fv-oq-RUn"/>
+                                            <action selector="signinAction:" destination="iVe-ml-aq6" eventType="touchUpInside" id="Vq4-Ek-wej"/>
                                             <action selector="signupAction:" destination="QL1-hS-esD" eventType="touchUpInside" id="xWt-lj-HUa"/>
                                         </connections>
                                     </button>
@@ -436,6 +438,15 @@
                             <constraint firstItem="LpU-U3-buW" firstAttribute="centerX" secondItem="ijH-ot-IKl" secondAttribute="centerX" id="uRd-VT-pNl"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="accountLbl" destination="K2m-b0-C9L" id="Lfm-uq-Mt8"/>
+                        <outlet property="emailtxtField" destination="lQ6-q8-qpK" id="cpn-PY-NPf"/>
+                        <outlet property="passwordtxtField" destination="ynz-ft-fRf" id="MbJ-ru-wdM"/>
+                        <outlet property="signInBtn" destination="USr-DI-Lse" id="ppN-r7-vnp"/>
+                        <outlet property="signupBtn" destination="SPV-MN-65x" id="ubM-dN-7k4"/>
+                        <outlet property="signupVC" destination="LpU-U3-buW" id="1tG-hA-7J2"/>
+                        <outlet property="usernametxtField" destination="taI-f4-SGh" id="pUe-LV-AsB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KVR-SP-AEt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

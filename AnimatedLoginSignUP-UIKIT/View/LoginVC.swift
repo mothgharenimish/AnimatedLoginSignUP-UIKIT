@@ -18,6 +18,7 @@ class LoginVC: UIViewController {
     @IBOutlet weak var accountLbl: AnimatableLabel!
     @IBOutlet weak var signupBtn: AnimatableButton!
     
+    //MARK: -View Life Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -46,16 +47,17 @@ class LoginVC: UIViewController {
     
     
     
-    
+    //MARK: -SignIn IBAction
     @IBAction func signInaction(_ sender: UIButton) {
         
         
     }
     
-    
+    //MARK: -SignUp IBAction
     @IBAction func signupAction(_ sender: UIButton) {
         
-        
+        let vc = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "SignUpVC") as? SignUpVC
+        self.navigationController?.pushViewController(vc!, animated: true)
     }
     
 }
