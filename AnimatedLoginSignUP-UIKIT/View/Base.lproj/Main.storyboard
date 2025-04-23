@@ -92,7 +92,7 @@
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="  Email Address" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6MX-mc-g4a" customClass="AnimatableTextField" customModule="IBAnimatable">
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email Address" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6MX-mc-g4a" customClass="AnimatableTextField" customModule="IBAnimatable">
                                         <rect key="frame" x="22" y="81" width="306" height="55"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.49147002550000002" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
@@ -116,7 +116,7 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                     </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="  Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="D8b-eD-nEN" customClass="AnimatableTextField" customModule="IBAnimatable">
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder=" Password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="D8b-eD-nEN" customClass="AnimatableTextField" customModule="IBAnimatable">
                                         <rect key="frame" x="22" y="156" width="306" height="55"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.49147002550000002" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
@@ -267,7 +267,7 @@
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="taI-f4-SGh" customClass="AnimatableTextField" customModule="IBAnimatable">
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="taI-f4-SGh" customClass="AnimatableTextField" customModule="IBAnimatable">
                                         <rect key="frame" x="22" y="81" width="306" height="55"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.49147002550000002" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
@@ -291,7 +291,7 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                     </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email Address" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lQ6-q8-qpK" customClass="AnimatableTextField" customModule="IBAnimatable">
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email Address" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lQ6-q8-qpK" customClass="AnimatableTextField" customModule="IBAnimatable">
                                         <rect key="frame" x="22" y="156" width="306" height="55"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.49147002550000002" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
@@ -366,7 +366,7 @@
                                             <action selector="signupAction:" destination="QL1-hS-esD" eventType="touchUpInside" id="xWt-lj-HUa"/>
                                         </connections>
                                     </button>
-                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="  Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ynz-ft-fRf" customClass="AnimatableTextField" customModule="IBAnimatable">
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ynz-ft-fRf" customClass="AnimatableTextField" customModule="IBAnimatable">
                                         <rect key="frame" x="22" y="231" width="306" height="55"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.49147002550000002" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
@@ -444,7 +444,7 @@
                         <outlet property="passwordtxtField" destination="ynz-ft-fRf" id="MbJ-ru-wdM"/>
                         <outlet property="signInBtn" destination="USr-DI-Lse" id="ppN-r7-vnp"/>
                         <outlet property="signupBtn" destination="SPV-MN-65x" id="ubM-dN-7k4"/>
-                        <outlet property="signupVC" destination="LpU-U3-buW" id="1tG-hA-7J2"/>
+                        <outlet property="signupView" destination="LpU-U3-buW" id="nzx-MN-d4h"/>
                         <outlet property="usernametxtField" destination="taI-f4-SGh" id="pUe-LV-AsB"/>
                     </connections>
                 </viewController>
