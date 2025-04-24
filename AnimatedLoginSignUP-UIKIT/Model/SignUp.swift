@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Json4Swift_Base: Codable {
+struct SignUpResponse: Codable {
     let code: String?
     let message: String?
     let data: UserData?

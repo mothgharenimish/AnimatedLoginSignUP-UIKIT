@@ -50,13 +50,14 @@ class SignUpVC: UIViewController {
     //MARK: -SignUp IBAction
     @IBAction func signupAction(_ sender: UIButton) {
         
-        
+     
     }
     
     
     //MARK: -SignIn IBAction
     @IBAction func signinAction(_ sender: UIButton) {
         
+     
         if let viewControllers = self.navigationController?.viewControllers {
                for vc in viewControllers {
                    if vc is LoginVC {
@@ -65,7 +66,6 @@ class SignUpVC: UIViewController {
                    }
                }
            }
-        
     }
     
     
