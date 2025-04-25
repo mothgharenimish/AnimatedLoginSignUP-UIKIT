@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+struct LoginResponse: Codable {
+    let code: String?
+    let message: String?
+    let data: UserData?
+}
