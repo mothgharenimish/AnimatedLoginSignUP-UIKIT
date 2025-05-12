@@ -157,8 +157,7 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                         <connections>
-                                            <action selector="nextscreenAction:" destination="bUe-xy-Gyg" eventType="touchUpInside" id="Uu9-AI-qpM"/>
-                                            <action selector="signInaction:" destination="QL1-hS-esD" eventType="touchUpInside" id="AIl-Dn-cK6"/>
+                                            <action selector="signInaction:" destination="QL1-hS-esD" eventType="touchUpInside" id="iwS-Of-Jlv"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Don't have an account" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qeg-dQ-DD4" customClass="AnimatableLabel" customModule="IBAnimatable">
@@ -184,9 +183,7 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                         <connections>
-                                            <action selector="nextscreenAction:" destination="bUe-xy-Gyg" eventType="touchUpInside" id="bus-fk-Pc9"/>
-                                            <action selector="signInaction:" destination="QL1-hS-esD" eventType="touchUpInside" id="rfY-4S-ZQV"/>
-                                            <action selector="signupAction:" destination="QL1-hS-esD" eventType="touchUpInside" id="keY-AM-rLB"/>
+                                            <action selector="signupAction:" destination="QL1-hS-esD" eventType="touchUpInside" id="naM-ry-9n3"/>
                                         </connections>
                                     </button>
                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username " textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XuP-eJ-el8" customClass="AnimatableTextField" customModule="IBAnimatable">
@@ -360,9 +357,7 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                         <connections>
-                                            <action selector="nextscreenAction:" destination="bUe-xy-Gyg" eventType="touchUpInside" id="Byl-ba-gZF"/>
-                                            <action selector="signInaction:" destination="QL1-hS-esD" eventType="touchUpInside" id="UMn-J0-dMD"/>
-                                            <action selector="signupAction:" destination="iVe-ml-aq6" eventType="touchUpInside" id="7ul-Gh-Dqv"/>
+                                            <action selector="signupAction:" destination="iVe-ml-aq6" eventType="touchUpInside" id="uNQ-XD-Icb"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Already have an account?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K2m-b0-C9L" customClass="AnimatableLabel" customModule="IBAnimatable">
@@ -388,10 +383,7 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                         <connections>
-                                            <action selector="nextscreenAction:" destination="bUe-xy-Gyg" eventType="touchUpInside" id="7vV-Cq-v0X"/>
-                                            <action selector="signInaction:" destination="QL1-hS-esD" eventType="touchUpInside" id="7Fv-oq-RUn"/>
-                                            <action selector="signinAction:" destination="iVe-ml-aq6" eventType="touchUpInside" id="Vq4-Ek-wej"/>
-                                            <action selector="signupAction:" destination="QL1-hS-esD" eventType="touchUpInside" id="xWt-lj-HUa"/>
+                                            <action selector="signinAction:" destination="iVe-ml-aq6" eventType="touchUpInside" id="u33-Re-SOE"/>
                                         </connections>
                                     </button>
                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ynz-ft-fRf" customClass="AnimatableTextField" customModule="IBAnimatable">

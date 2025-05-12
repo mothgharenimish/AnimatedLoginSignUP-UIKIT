@@ -30,7 +30,7 @@ class SignUpVC: UIViewController {
         self.signupView.animate(.compound(animations: .init(arrayLiteral: .slideFade(way: .in, direction: .down)), run: .parallel))
         
         DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
-              print("Code executed after 2 seconds")
+            print("Code executed after 2 seconds")
             
             self.usernametxtField.animate(.compound(animations: .init(arrayLiteral: .slide(way: .in, direction: .left)), run: .parallel))
             
@@ -44,10 +44,10 @@ class SignUpVC: UIViewController {
             self.accountLbl.animate(.compound(animations: .init(arrayLiteral: .slide(way: .in, direction: .left)), run: .parallel))
             
             self.signInBtn.animate(.compound(animations: .init(arrayLiteral: .slide(way: .in, direction: .left)), run: .parallel))
-
-
             
-          }
+            
+            
+        }
         
     }
     
@@ -55,39 +55,22 @@ class SignUpVC: UIViewController {
     @IBAction func signupAction(_ sender: UIButton) {
         
         if usernametxtField.text!.isEmpty {
-                let alert = CDAlertView(
-                    title: "Missing Username",
-                    message: "Please enter a username.",
-                    type: .custom(image: UIImage(named:"icons8-username-30")!)
-                )
-                alert.circleFillColor = UIColor.systemBlue
-                alert.add(action: CDAlertViewAction(title: "OK"))
-                alert.show()
-            }
+            
+            shownaviagtionAlert(title: "Missing Username", message: "Please Enter a Username")
+        }
         
-       else if emailtxtField.text!.isEmpty {
-            let alert = CDAlertView(
-                title: "Missing Email Address",
-                message: "Please enter a Email Address.",
-                type: .custom(image: UIImage(named:"icons8-email-30")!)
-            )
-            alert.circleFillColor = UIColor.systemBlue
-            alert.add(action: CDAlertViewAction(title: "OK"))
-            alert.show()
+        else if emailtxtField.text!.isEmpty {
+            
+            shownaviagtionAlert(title: "Missing Email Address", message: "Please Enter an Email Address")
             
         }
         
         else if passwordtxtField.text!.isEmpty {
-             let alert = CDAlertView(
-                 title: "Missing Password",
-                 message: "Please enter a Password",
-                 type: .custom(image: UIImage(named:"icons8-password-30")!)
-             )
-             alert.circleFillColor = UIColor.systemBlue
-             alert.add(action: CDAlertViewAction(title: "OK"))
-             alert.show()
-             
-         }
+            
+            shownaviagtionAlert(title: "Missing Password", message: "Please Enter a Password")
+            
+            
+        }
         
         else {
             let username = usernametxtField.text!
@@ -98,29 +81,23 @@ class SignUpVC: UIViewController {
                 DispatchQueue.main.async {
                     switch result {
                     case .success(let message):
-                        let alert = CDAlertView(
-                            title: "Sign Up",
-                            message: message,
-                            type: .custom(image: UIImage(named: "icons8-success-30")!)
-                        )
-                        alert.circleFillColor = UIColor.systemBlue
-                        alert.add(action: CDAlertViewAction(title: "OK"))
-                        alert.show()
                         
-                    case .failure(_):
-                        let alert = CDAlertView(
-                            title: "Error",
-                            message: "Something went wrong during signup.",
-                            type: .warning
-                        )
-                        alert.circleFillColor = UIColor.systemRed
-                        alert.add(action: CDAlertViewAction(title: "OK"))
-                        alert.show()
+                        self.shownaviagtionAlert(title: "SignUp", message: "SignUp Successfully", completion: {
+                            
+                            self.navigationController?.popViewController(animated: true)
+                            
+                            
+                        })
+                        
+                    case .failure(let error):
+                        
+                        print("The error while doing the SignUp \(error)")
+                       
                     }
                 }
             }
         }
-
+        
     }
     
     
@@ -128,17 +105,17 @@ class SignUpVC: UIViewController {
     @IBAction func signinAction(_ sender: UIButton) {
         
         if let viewControllers = self.navigationController?.viewControllers {
-               for vc in viewControllers {
-                   if vc is LoginVC {
-                       self.navigationController?.popToViewController(vc, animated: true)
-                       break
-                   }
-               }
-           }
+            for vc in viewControllers {
+                if vc is LoginVC {
+                    self.navigationController?.popToViewController(vc, animated: true)
+                    break
+                }
+            }
+        }
     }
     
     
-
     
-
+    
+    
 }
