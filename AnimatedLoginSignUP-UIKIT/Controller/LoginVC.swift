@@ -122,7 +122,13 @@ class LoginVC: UIViewController {
                 DispatchQueue.main.async {
                     switch result {
                     case .success(let message):
-                        self.shownaviagtionAlert(title: "Login", message: "Login Successfull")
+                        
+                        
+                        print("The Login message is \(message)")
+                        self.shownaviagtionAlert(title: "Login", message: message)
+                        
+//                        print("The Login is Successfully")
+//                        self.shownaviagtionAlert(title: "Login", message: "Login Successfull")
                             
                           
                         
